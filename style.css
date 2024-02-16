@@ -29,7 +29,7 @@ img{
     max-width: 100%;
 }
 
-body, h1, p
+body, h1, p, a
 {
     margin: 0;
     padding: 0;
@@ -102,13 +102,14 @@ main{
     display: block;
 }
 
-.card-title{
+.card-title a{
     color: var(--clr-neutral-white);
     font-size: var(--fs-500);
     cursor: pointer;
+    text-decoration: none;
 }
 
-.card-title:hover{
+.card-title a:hover{
     color: var(--clr-primary-cyan);
 }
 
@@ -146,11 +147,12 @@ main{
     border-radius: 50%;
 }
 
-.card-owner-description span {
+.card-owner-description a {
     color: var(--clr-neutral-white);
+    text-decoration: none;
     cursor: pointer;
 }
 
-.card-owner-description span:hover{
+.card-owner-description a:hover{
     color: var(--clr-primary-cyan);
 }
